@@ -1,15 +1,8 @@
-# CGS Test project
-
-> For This project use [MERN stack](https://www.mongodb.com/languages/mern-stack-tutorial)
-
 ## Project commands
 
 `yarn start` - to launch your project  
 
 ## Pre requirements
-
-Watch this video:
-[Hook Setup](https://drive.google.com/file/d/1Ze02SQASwp8KIm39lvL7Gavzq7yZ5HFq/view?usp=sharing)
 
 1. Pull repo.
 2. `git checkout -b <name that you have set in pre-requirements>/main`
@@ -34,8 +27,6 @@ yarn global add tslint typescript
 
 ```
 
-link: https://stackoverflow.com/questions/36910592/enabling-eslint-on-typescript-files/64175035#64175035
-
 ## Time-frames
 
 Time-frames of the test task is highly important! You have only 2 weeks for the task below, please use this time wisely. Good luck!
@@ -52,7 +43,7 @@ Time-frames of the test task is highly important! You have only 2 weeks for the 
 
 - _You should split your code on logical components ( `<TodoContainer />`, `<TodoElement/>` etc);_
 - _For Edit/Add you should use forms written with [Formik](https://formik.org/docs/overview);_
-- _Put logic related to server interactions inside `service/http.ts` file (check [Our Documentation](https://github.com/CodeGeneration-2020/code-generation-code-style/blob/main/docs/javascript.md#server-interactions-))_
+- _Put logic related to server interactions inside `service/http.ts` file_
 - _For data fetching you can use [React Query](https://react-query.tanstack.com/), it also help you to globally store your data_
 - _Todo list page should have different behaviors on different devices. Desktop - should be displayed as a table, Tablet - should be as slider, Mobile - list._
 - _Your font sizes, colors, margins, paddings should be in THEME const_
@@ -83,34 +74,3 @@ Time-frames of the test task is highly important! You have only 2 weeks for the 
 - _All pagination should be handled by backend_
 - _Change frontend request with pagination params_
 - _Pagination should be done differently on different devices. Desktop - button pagination, Tablet - horizontal scroll pagination, Mobile - vertical scroll pagination_
-
-### NOTES
-
-> Backend should have stored in `backend` dir, mobile should be stored in `fronted` dir.
-> Use technologies from `Useful links and technologies`. You should create separate pr for each task.
-
-Design: [drive.google](https://drive.google.com/file/d/1PcusGdHTmD4qzhKRJnd9pk2jLAUyLIiX/view?usp=sharing)
-
-## PR convention
-
-1. Each intern will be attached to a branch (`<name that you have set in pre-requirements>/main`);
-2. When you are working on a feature you should create a separate branch from `<name that you have set in pre-requirements>/main` with the following name:
-   `feature/<name that you have set in pre-requirements>/<feature-name>` or `bug/<name that you have set in pre-requirements>/<feature-name>`. Once you are done with a subtask you should create a PR into `<name that you have set in pre-requirements>/main` and ping `Danyyl Kuchkov & Oleksii Samoilenko` for review;
-3. Title of your PR's should be `feat: <name of your feature>` or `bug-fix: <name of your bugfix>`. Description field should contain short info about feature/bug;
-4. PR's are under review ONLY between 9AM - 9:30AM (Kyiv EET time)
-
-> If you will face with some issues with git. Ask `Danyyl Kuchkov` via slack;
-
-## Useful links and technologies
-
-[Corporate Codestyle](https://github.com/CodeGeneration-2020/code-generation-code-style)  
-[Formik](https://formik.org/docs/overview)  
-[Mongoose](https://mongoosejs.com/)  
-[Typescript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)  
-[Passport](http://www.passportjs.org/)  
-[React Query](https://react-query.tanstack.com/)  
-[Styled component](https://styled-components.com/)  
-
-```
-
-```
